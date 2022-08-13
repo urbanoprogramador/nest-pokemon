@@ -1,0 +1,15 @@
+GET http://localhost:3000
+###
+GET http://localhost:3000/api/pokemon
+###
+GET http://localhost:3000/api/pokemon/picku
+###
+POST  http://localhost:3000/api/pokemon
+content-type: application/json
+
+{
+  "no": 2,
+  "name": "pickU2"
+}
+
+###
