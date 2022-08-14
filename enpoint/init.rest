@@ -1,6 +1,6 @@
 GET http://localhost:3000
 ###
-GET http://localhost:3000/api/pokemon
+GET http://localhost:3000/api/pokemon?limit=10
 ###
 GET http://localhost:3000/api/pokemon/picku
 ###
