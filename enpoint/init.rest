@@ -8,8 +8,28 @@ POST  http://localhost:3000/api/pokemon
 content-type: application/json
 
 {
-  "no": 2,
-  "name": "pickU2"
+  "no": 1,
+  "name":"charizar"
 }
+###
+PATCH  http://localhost:3000/api/pokemon/3
+content-type: application/json
 
+{
+  "name": "algo2"
+}
+###
+PATCH  http://localhost:3000/api/pokemon/62f847975001095901136c2d
+content-type: application/json
+
+{
+
+}
+###
+DELETE   http://localhost:3000/api/pokemon/62f8502337fe826180e85580
+content-type: application/json
+
+{
+
+}
 ###
